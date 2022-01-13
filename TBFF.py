@@ -128,12 +128,12 @@ def moch_yayan():
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
-    print '\033[0;97m [+] Author  : TAUFIQURRAHMAN'
-    print '\033[0;97m [+] Github  : github.com/TaufiqRR/TBFF'
-    print '\033[0;97m [+] My Fb   : facebook.com/IMREALTAUFIQ'
+    print '\033[0;97m [+] Author   : TAUFIQURRAHMAN'
+    print '\033[0;97m [+] Github   : Github.com/TaufiqXyz/TBFF'
+    print '\033[0;97m [+] Facebook : Facebook.com/IMREALTAUFIQ'
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
     print '\033[0;97m [\033[0;96m++\033[0m] Your Name  : %s'%(nama);time.sleep(0.03)
-    print '\033[0;97m [\033[0;96m++\033[0m] IP Address  : %s'%(IP)
+    print '\033[0;97m [\033[0;96m++\033[0m] IP Address : %s'%(IP)
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
     print '\033[0;97m [01]. Dump ID Teman'
     print '\033[0;97m [02]. Dump ID Publik'
@@ -142,7 +142,7 @@ def moch_yayan():
     print '\033[0;97m [05]. View Result Crack'
     print '\033[0;97m [06]. Settings user agent'
     print ' [%s00%s]. Logout (%sTools%s)'%(M,N,M,N);time.sleep(0.03)
-    pepek = raw_input('\n [*] menu : ')
+    pepek = raw_input('\n [*] Chosee : ')
     if pepek == '':
         print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
